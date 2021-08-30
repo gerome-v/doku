@@ -1,12 +1,12 @@
-##How to document Python project using Sphinx and RTD
+## How to document Python project using Sphinx and RTD
 - This repo is a dummy Python project that illustrates how to generate 
   documenatiton using Sphinx and RTD style theme.
 
-###1. Install the following packages
+### 1. Install the following packages
 ```bash 
 $ pip install -U sphinx sphinx-rtd-theme
 ```
-###2. Create a docs folder. 
+### 2. Create a docs folder. 
    Here is the folder structure of this project.
 ```
 | doku
@@ -18,7 +18,7 @@ $ pip install -U sphinx sphinx-rtd-theme
 |     └── utils.py 
 ```
 
-###3. Build sphinx related files inside `docs/`. 
+### 3. Build sphinx related files inside `docs/`. 
 ```bash
 cd docs 
 PROJECT_NAME=doku 
@@ -26,9 +26,9 @@ AUTHOR=GV
 RELEASE=0.1
 sphinx-quickstart  --sep -p $PROJECT_NAME -a $AUTHOR -r $RELEASE -l en
 ```
-where doku is your project name. GV is the author name
+where doku is your project name. GV is the author name.
 
-###4. Edit `conf.py` file by adding these code.
+### 4. Edit `conf.py` file by adding these code.
 ```python
 # docs/source/conf.py
 import os
@@ -52,7 +52,7 @@ extensions = [
 html_theme = "sphinx_rtd_theme"
 
 ```
-###5. Automatically generate documentation from your docstrings. 
+### 5. Automatically generate documentation from your docstrings. 
 Make sure your docstrings are legible ([link](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/)). 
    Generate documentation using your docstrings from your 
    Python code.
