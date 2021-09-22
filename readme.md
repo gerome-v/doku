@@ -1,6 +1,6 @@
 ## How to document Python project using Sphinx and RTD
 - This repo is a dummy Python project that illustrates how to generate 
-  documenatiton using Sphinx and RTD style theme.
+  documentation using Sphinx and RTD style theme.
 
 ### 1. Install the following packages
 ```bash 
