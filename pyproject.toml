@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "test_tox"
+name = "doku"
 version = "0.1.0"
 description = "doku-demo"
 authors = ["geromee <gerome.vivar@gmail.com>"]
