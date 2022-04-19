@@ -1,4 +1,4 @@
-doku package
+doku
 ============
 
 Submodules
