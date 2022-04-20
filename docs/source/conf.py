@@ -71,7 +71,7 @@ html_theme_options = {
     "use_fullscreen_button": True,
     "use_issues_button": True
 }   
-html_logo = "_static/doku_icon.001.png"
+# html_logo = "_static/doku_icon.001.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
