@@ -14,7 +14,6 @@ import os
 import sys
 # sys.path.insert(0, os.path.abspath('.'))
 from pathlib import Path
-import sphinx_rtd_theme
 
 # Add parent dir to known paths
 p = Path(__file__).parents[2]
