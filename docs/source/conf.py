@@ -67,7 +67,11 @@ exclude_patterns = ['_build']
 html_theme = "sphinx_book_theme"
 html_theme_options = {
     "logo_only": True,
-}
+    "repository_url": "https://github.com/gerome-v/doku",
+    "use_repository_button": True,
+    "use_fullscreen_button": True,
+    "use_issues_button": True
+}   
 html_logo = "_static/doku_icon.001.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
