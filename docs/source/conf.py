@@ -72,7 +72,7 @@ html_theme_options = {
     "use_issues_button": True
 
 }   
-html_logo = "_static/doku_icon.001.png"
+html_logo = "_static/doku.png"
 html_title = "My site title"
 
 # Add any paths that contain custom static files (such as style sheets) here,
