@@ -65,7 +65,7 @@ exclude_patterns = ['_build']
 #
 html_theme = "sphinx_book_theme"
 html_theme_options = {
-    "logo_only": True,
+    # "logo_only": True,
     "repository_url": "https://github.com/gerome-v/doku",
     "use_repository_button": True,
     "use_fullscreen_button": True,
