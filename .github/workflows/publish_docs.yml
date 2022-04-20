@@ -24,7 +24,7 @@ jobs:
 
     # Build the book
     - name: Build the book
-      run: cd docs && pwd && make clean && make build
+      run: cd docs && pwd && ls && make clean && make html
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
