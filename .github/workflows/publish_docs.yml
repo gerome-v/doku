@@ -20,14 +20,11 @@ jobs:
         python-version: 3.8
 
     - name: Install dependencies
-      run: pip install -r docs/requirements.txt
-      run: pip install -r requirements.txt
-        
+      run: pip install -r docs/requirements.txt && pip install -r requirements.txt
 
     # Build the book
     - name: Build the book
-      run: cd docs && pwd
-      run: make clean && make build
+      run: cd docs && pwd && make clean && make build
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
